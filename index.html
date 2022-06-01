@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="stylesheet" href="/assets/estilos.css">
+    <link rel="stylesheet" href="/assets/font.css">
+    <link rel="stylesheet" href="Https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Vuelos / PLANEANDO!</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <p class="logo">Planeando!</p>
+            <nav>
+                <a href="../Index.html">Inicio</a>
+                <a href="./vuelos.html">Vuelos</a>
+                <a href="./hospedajes.html">Hospedajes</a>
+                <a href="./actividades.html">Actividades</a>
+                <a href="./paquetes.html">Paquetes</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="imgPrincipal">
+            <h1 id="titulo">Vuelos a tu disposición <br> con el mejor precio</h1>
+            <div>
+                <button id="empezar">EMPIEZA YA!</button>
+            </div>
+        </section>
+
+
+        <section class="buscaVuelo">
+            <div class="container">
+                <h2>Encontrá los mejores vuelos</h2>
+                <form class="containerDatos">
+                    <div class="radios">
+                        <input type="radio" name="soloIda" id="soloIda">
+                        <label for="soloIda">Solo ida </label>
+                        <input type="radio" name="idaVuelta" id="idaVuelta">
+                        <label for="idaVuelta">Ida y vuelta </label>
+                        <input type="radio" name="multidestino" id="multidestino">
+                        <label for="multidestino">Multidestino </label>
+                    </div>
+                    <div class="comboDestino">
+                        <label for="salgoDe">Salgo de</label>
+                        <input type="search" name="salgoDe" id="salgoDe">
+                        <label for="voy">Voy a</label>
+                        <input type="search" name="voy" id="voy">
+                    </div>
+                    <div class="comboFechaPersonas">
+                        <div class="fechas">
+                            <label for="salida">Salida</label>
+                            <input type="date" name="salida" id="salida">
+                            <label for="regreso">Regreso</label>
+                            <input type="date" name="regreso" id="regreso">
+                        </div>
+                        <div class="comboPersonas">
+                            <select name="personas" id="personas">
+                                <option>Adultos</option>
+                                <option>Menores</option>
+                                <option>Bebes</option>
+                            </select>
+                            <input type="number" name="personas" id="cantidad">
+                            </select>
+                            <div class="containerClases">
+                                <label>Clase</label>
+                                <select name="clases" class="clases">
+                                    <option value="1">Todas</option>
+                                    <option value="2">Primera</option>
+                                    <option value="3">Business</option>
+                                    <option value="4">Premium</option>
+                                    <option value="5">Económica</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="btnCheck">
+                        <label for="checkbox">Todavía no tengo fecha definida</label>
+                    </div>
+                    <div class="btnBuscar">
+                        <button id="buscar">BUSCAR</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <section class="volaArg">
+        <h2>Volá por Argentina, animate!</h2><br><br>
+        <div class="container">
+            <div class="cartas">
+                <div class="carta">
+                    <div class="containerImagen">
+                        <div class="btnVuelo">
+                            <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                        </div>
+                    </div>
+                    <h3>Iguazú</h3>
+                    <p>Desde <br><span>Buenos Aires</span></p>
+                    <hr>
+                    <p>Precio</p>
+                    <b>$ 15.650</b>
+                </div>
+                <div class="carta">
+                    <div class="containerImagen2">
+                        <div class="btnVuelo">
+                            <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                        </div>
+                    </div>
+                    <h3>Bariloche</h3>
+                    <p>Desde <br><span>Buenos Aires</span></p>
+                    <hr>
+                    <p>Precio</p>
+                    <b>$ 22.350</b>
+                </div>
+                <div class="carta">
+                    <div class="containerImagen3">
+                        <div class="btnVuelo">
+                            <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                        </div>
+                    </div>
+                    <h3>Salta</h3>
+                    <p>Desde <br><span>Buenos Aires</span></p>
+                    <hr>
+                    <p>Precio</p>
+                    <b>$ 17.860</b>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="volaAfuera">
+        <h2>Descubri nuevos destinos pagando en cuotas!</h2>
+        <div class="container">
+            <div class="cartas">
+                <div class="carta">
+                    <div class="containerImagen4">
+                        <div class="btnVuelo">
+                            <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                        </div>
+                    </div>
+                    <h3>Florianópolis</h3>
+                    <p>Desde <br><span>Buenos Aires</span></p>
+                    <hr>
+                    <p>Precio</p>
+                    <b>$ 45.550</b>
+                </div>
+                <div class="carta">
+                    <div class="containerImagen5">
+                        <div class="btnVuelo">
+                            <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                        </div>
+                    </div>
+                    <h3>Los Alpes</h3>
+                    <p>Desde <br><span>Buenos Aires</span></p>
+                    <hr>
+                    <p>Precio</p>
+                    <b>$ 185.455</b>
+                </div>
+                <div class="carta">
+                    <div class="containerImagen6">
+                        <div class="btnVuelo">
+                            <button id="btnVuelo">QUIERO VOLAR AQUÍ!</button>
+                        </div>
+                    </div>
+                    <h3>Río de Janeiro</h3>
+                    <p>Desde <br><span>Buenos Aires</span></p>
+                    <hr>
+                    <p>Precio</p>
+                    <b>$ 48.880</b>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="bancos">
+                <label for="btnBancos">Tenemos la mejor financiación para tu viaje, no te lo pierdas!</label>
+                <div>
+                    <button id="btnBancos">VER TODOS LOS BANCOS</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="suscribir">
+        <div class="container">
+            <div id="suscribir">
+                <label for="emailUsuario">No te pierdas las promociones</label>
+                <input type="email" name="emailUsuario" placeholder="Ingresá tu email">
+            </div>
+            <div>
+                <button id="btnSuscribir">SUSCRIBIRME</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="datosEmpresa">
+        <div class="container">
+            <p>Para defensa de las y los consumidores, ingrese <a href="#">aquí</a></p>
+            <p>Atención al cliente: <span id="negrita">0810.453.4413</span></p>
+            <p><span>Lunes a sabados</span> de 11 a 21hs.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p class="logo">Planeando!</p>
+            <div class="redes">
+                <i class="fab fa-facebook" id="facebook"></i>
+                <i class="fab fa-twitter" id="twitter"></i>
+                <i class="fab fa-instagram" id="instagram"></i>
+                <i class="fab fa-linkedin-in" id="linkedin"></i>
+                <i class="fab fa-tiktok" id="tiktok"></i>
+            </div>
+            <hr>
+            <div class="politicas">
+                <a href="">Condiciones generales</a>
+                <a href="">Política de seguridad</a>
+                <a href="">Política de privacidad</a>
+                <a href="">Términos y condiciones del uso</a>
+            </div>
+            <hr>
+            <p>the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                including versions of Lorem Ipsum.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
