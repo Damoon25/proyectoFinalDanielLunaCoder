@@ -1,5 +1,13 @@
 /*ELEMENTOS GENERALES*/
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,400&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
 * {
     box-sizing: border-box;
     /*cuando se agrega margin, padding a los elementos no crezcan mas alla del tamaño dado*/
