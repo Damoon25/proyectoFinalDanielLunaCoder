@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/public/assets/css/estilos.css">
+    <link rel="stylesheet" href="/src/public/assets/css/font.css">
+    <link rel="stylesheet" href="Https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="/src/public/assets/js/main.js"></script>
+    <title>Paquetes / PLANEANDO!</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <p class="logo">Planeando!</p>
+            <nav>
+                <a href="../Index.html">Inicio</a>
+                <a href="./vuelos.html">Vuelos</a>
+                <a href="./hospedajes.html">Hospedajes</a>
+                <a href="./actividades.html">Actividades</a>
+                <a href="./paquetes.html">Paquetes</a>
+                <div>
+                    <a href="./Ingreso.html" class="paginaIngresar">Ingresar</a>
+                    <button class="paginaIngresar"><i class="fa-solid fa-user"></i></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="imgPrincipal">
+            <h1 id="titulo">Todos los paquetes que necesitas <br> para tus mejores vacaciones</h1>
+            <div>
+                <button id="empezar">EMPIEZA YA!</button>
+            </div>
+        </section>
+
+
+        <section class="busca_paquetes">
+            <div class="container">
+                <h2>Encontrá paquetes con alojamientos flexibles</h2>
+                <form class="container_datos">
+                    <div class="radios">
+                        <input type="radio" name="solo ida" id="solo_ida">
+                        <label for="ida_vuelta" id="label_solo">Arma tu paquete </label>
+                        <input type="radio" name="ida y vuelta" id="ida_vuelta">
+                        <label for="solo_ida" id="label_idavuelta">Paquetes recomendados </label>
+                    </div>
+                    <div class="combo_datos">
+                        <div class="combos">
+                            <div class="combo_salgo">
+                                <div>
+                                    <label for="Salgo de">Salgo de </label>
+                                </div>
+                                <div>
+                                    <input type="search" name="Salgo de" id="Salgo" placeholder="Ingresa una ciudad">
+                                </div>
+                            </div>
+                            <div class="combo_voy">
+                                <div>
+                                    <label for="Voy a">Voy a </label>
+                                </div>
+                                <div>
+                                    <input type="search" name="Voy a" id="voy" placeholder="Ingresa una ciudad">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fechas">
+                            <label for="salida" id="label_salida">Salida</label>
+                            <input type="date" name="salida" id="salida">
+                            <label for="regreso" id="label_regreso">Regreso</label>
+                            <input type="date" name="Regreso" id="regreso">
+                        </div>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="fecha_definida" id="fecha_definida">
+                        <label for="fecha_definida">Todavía no tengo fecha definida</label>
+                    </div>
+                    <div class="destino">
+                        <button id="btn_destino"></button>
+                        <label for="btn_destino">Agregar destino</label>
+                        <p>Todos los paquetes incluyen el vuelo de vuelta al aeropuerto del origen</p>
+                    </div>
+                    <div class="combo_datos2">
+                        <select name="personas" id="personas">
+                            <option>Adultos</option>
+                            <option>Menores</option>
+                            <option>Bebes</option>
+                        </select>
+                        <input type="number" name="cantidad" id="cantidad">
+                        </select>
+                        <div class="container_clases">
+                            <label>Clase</label>
+                            <select name="clases" class="clases">
+                                <option value="1">Todas</option>
+                                <option value="2">Primera</option>
+                                <option value="3">Business</option>
+                                <option value="4">Premium</option>
+                                <option value="5">Económica</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="btn_buscar">
+                        <button id="buscar">BUSCAR</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <section>
+        <div class="container">
+            <div class="bancos">
+                <p>Tenemos la mejor financiación para tu viaje, no te lo pierdas!</p>
+                <div>
+                    <button id="btnBancos">VER TODOS LOS BANCOS</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="suscribir">
+        <div class="container">
+            <div id="suscribir">
+                <label for="emailUsuario">No te pierdas las promociones</label>
+                <input type="email" name="emailUsuario" placeholder="Ingresá tu email">
+            </div>
+            <div>
+                <button id="btnSuscribir">SUSCRIBIRME</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="datosEmpresa">
+        <div class="container">
+            <p>Para defensa de las y los consumidores, ingrese <a href="#">aquí</a></p>
+            <p>Atención al cliente: <span id="negrita">0810.453.4413</span></p>
+            <p><span>Lunes a sabados</span> de 11 a 21hs.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p class="logo">Planeando!</p>
+            <div class="iconos">
+                <i class="fab fa-facebook" id="facebook"></i>
+                <i class="fab fa-twitter" id="twitter"></i>
+                <i class="fab fa-instagram" id="instagram"></i>
+                <i class="fab fa-linkedin-in" id="linkedin"></i>
+                <i class="fab fa-tiktok" id="tiktok"></i>
+            </div>
+            <hr>
+            <a href="">Condiciones generales</a>
+            <a href="">Política de seguridad</a>
+            <a href="">Política de privacidad</a>
+            <a href="">Términos y condiciones del uso</a>
+            <hr>
+            <p>the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
+                including versions of Lorem Ipsum.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
